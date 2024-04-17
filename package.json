@@ -1,0 +1,18 @@
+{
+  "name": "automation_api",
+  "version": "1.0.0",
+  "description": "Automation Testing API Using Mocha Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kasir": "npx mocha kasir/*.js",
+    "dummy": "npx mocha dummyapi.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
